@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyBaby - Login</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body class="body-login">
+    <div class="login-page">
+        <div class="card">
+            <h2 id="login-title">Login</h2>
+            <form id="login-form" onsubmit="loginFunction(); return false;">
+                <label class="login-label" for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label class="login-label" for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <br>
+                <button id="login-btn" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
