@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #fdf1ff;
+  --secondary: #af87c9;
+  --secondary2: #7b5a91;
+  --tertiary: #ffe9c3;
+  --border: #5f5d5d;
+  --text: #333;
+  --text-btn: #a784c3;
+  --invert: #fff;
+  --card: #ffffff;
+  --background: #ebd2f2;
+}
+
+body {
+  font-family: "Sora Variable", sans-serif;
+  @apply h-screen m-0 font-poppins text-primary;
+}
+
+input {
+  @apply w-full p-2 mb-2 border border-gray-400 rounded;
+}
+
+button {
+  @apply w-full p-2 bg-secondary text-invert border-none rounded cursor-pointer font-bold transition-all;
+}
+
+button:hover {
+  @apply bg-primary text-textBtn border border-solid border-2 border-secondary2 shadow-md;
+}
+
+start-btn {
+  @apply w-96;
+}
+
+.header {
+  @apply bg-primary p-4 flex justify-between items-center;
+}
+
+.header-course {
+  @apply bg-primary p-4 flex justify-between items-center;
+}
+
+.header-course-right {
+  @apply flex justify-center items-center;
+}
+
+.hero-section {
+  @apply flex justify-center items-center mt-16 h-3/4;
+}
+
+.hero-content {
+  @apply gap-2;
+}
+
+.navigation {
+  @apply text-text mr-10;
+}
+
+.navigation:hover {
+  @apply text-secondary font-bold mr-10;
+}
+
+.course-page {
+  @apply bg-background;
+}
+
+.course-section {
+  @apply flex flex-wrap justify-center items-center h-screen;
+}
+
+.course-card {
+  @apply bg-invert rounded-lg shadow-md overflow-hidden w-72 h-3/5 m-5;
+}
+
+.course-content {
+  @apply p-5 flex flex-col items-center;
+}
+
+.course-image img {
+  @apply w-full h-auto rounded-t-lg;
+}
+
+.course-title {
+  @apply text-2xl font-bold text-text mt-3;
+}
+
+.course-desc {
+  @apply text-xs text-text mt-2;
+}
+
+.course-btn {
+  @apply mt-auto flex justify-center pt-2;
+}
+
+.memory-game {
+  @apply text-center justify-center;
+}
+
+/* .grid {
+  @apply mt-10 grid grid-cols-4 grid-rows-4 gap-2.5 mb-5;
+} */
+
+.block {
+  @apply bg-text w-24 h-24 rounded transition duration-300;
+}
+
+.block.active {
+  @apply bg-secondary;
+}
