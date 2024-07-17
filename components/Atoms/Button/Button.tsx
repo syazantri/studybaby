@@ -1,4 +1,3 @@
-// components/Button.tsx
 interface ButtonProps {
     label: string;
     onClick?: () => void;
@@ -16,7 +15,7 @@ interface ButtonProps {
   };
   
   Button.defaultProps = {
-    onClick: () => {}, // No operation by default
+    onClick: () => {}, 
   };
   
   export default Button;

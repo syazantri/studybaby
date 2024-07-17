@@ -1,4 +1,3 @@
-// components/Block.tsx
 import React from 'react';
 
 interface BlockProps {

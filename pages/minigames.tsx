@@ -1,8 +1,8 @@
 import React from 'react';
-import BlockGrid from '../components/Block/BlockGrid';
-import Button from '../components/Button/Button';
-import HeaderOther from '../components/Navbar/HeaderOther';
-import Footer from '../components/Footer/Footer';
+import BlockGrid from '../components/Atoms/Block/BlockGrid';
+import Button from '../components/Atoms/Button/Button';
+import HeaderOther from '../components/Molecules/Navbar/HeaderOther';
+import Footer from '../components/Molecules/Footer/Footer';
 
 const Minigames: React.FC = () => {
   const handleStartGame = () => {

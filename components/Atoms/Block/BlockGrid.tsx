@@ -1,4 +1,3 @@
-// components/BlocksGrid.tsx
 import React, { useState } from 'react';
 import Block from './Block';
 
